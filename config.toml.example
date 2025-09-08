@@ -1,0 +1,20 @@
+[app]
+secret_key = "your-secret-key"
+
+[app.session]
+session_cookie_secure = true
+session_cookie_httponly = true
+session_cookie_samesite = "Strict"
+permanent_session_lifetime = 30
+
+[keycloak]
+server_url = "http://localhost:8080/"
+realm = "master"
+redirect_uri = "http://localhost:5000/callback"
+
+[keycloak.roles]
+admin_user = ["admin"]
+
+[logging]
+log_level = "DEBUG"
+log_file = "app.log"

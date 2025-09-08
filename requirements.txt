@@ -1,0 +1,9 @@
+requests
+Flask
+Jinja2
+toml
+python-keycloak
+flask-wtf
+flask-talisman
+pyjwt
+python-dotenv

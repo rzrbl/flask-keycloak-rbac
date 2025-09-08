@@ -1,0 +1,20 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+.btn-outline-light {
+    border-color: #e0e0e0;
+    color: #e0e0e0;
+}
+.btn-outline-light:hover {
+    background-color: #e0e0e0;
+    color: #121212;
+}
+.list-group-item {
+    background-color: transparent;
+    color: #e0e0e0;
+}
